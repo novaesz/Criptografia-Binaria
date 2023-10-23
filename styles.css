@@ -1,0 +1,87 @@
+body {
+    font-family: "Georgia", serif;
+    text-align: center;
+    background: #d4ffd4; /* Cor de fundo verde claro */
+    margin: 0;
+    padding: 0;
+}
+
+#animated-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #43a047, #357a38, #43a047); /* Plano de fundo animado gradiente verde */
+    background-size: 600% 600%;
+    animation: gradient 10s linear infinite; /* Animação do plano de fundo */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    background: #43a047; /* Cor de fundo verde mais escura */
+    color: #fff;
+    padding: 20px;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco transparente */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background: #43a047; /* Cor de fundo verde mais escura */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #357a38; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#encryptedText, #decryptedText {
+    white-space: pre-wrap;
+    background: #d0f2c9; /* Fundo verde claro */
+    padding: 20px;
+    border: 1px solid #a0dab1; /* Borda verde clara */
+    border-radius: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 18px;
+}

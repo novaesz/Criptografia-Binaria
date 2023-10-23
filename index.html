@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Criptografia Binária</title>
+</head>
+<body>
+    <header>
+        <h1>Criptografia Binária</h1>
+    </header>
+    <section class="encryption">
+        <h2>Enviar Mensagem Criptografada</h2>
+        <textarea id="plaintext" placeholder="Digite sua mensagem"></textarea>
+        <button id="encryptButton">Criptografar</button>
+        <button id="copyEncryptedTextButton">Copiar Texto Criptografado</button>
+        <h3>Mensagem Criptografada (Binário):</h3>
+        <div id="encryptedText"></div>
+    </section>
+    <section class="decryption">
+        <h2>Descriptografar Mensagem Recebida</h2>
+        <textarea id="ciphertext" placeholder="Cole a mensagem criptografada (Binário)"></textarea>
+        <button id="decryptButton">Descriptografar</button>
+        <button id="copyDecryptedTextButton">Copiar Texto Descriptografado</button>
+        <h3>Mensagem Descriptografada:</h3>
+        <div id="decryptedText"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
