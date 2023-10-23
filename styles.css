@@ -85,3 +85,10 @@ textarea {
     border-radius: 10px;
     font-size: 18px;
 }
+
+footer {
+    background: #43a047; /* Cor de fundo verde mais escura */
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
